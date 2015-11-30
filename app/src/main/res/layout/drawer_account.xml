@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/darker_drawer">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/temp_avatar"
+        android:id="@+id/drawer_account_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="@color/black"
+        android:id="@+id/drawer_account_text"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:maxLines="1"></TextView>
+    </LinearLayout>
+</RelativeLayout>

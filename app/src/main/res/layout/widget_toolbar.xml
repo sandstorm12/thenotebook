@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@color/tool_bar_widget">
+
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="41dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/tool_widget_app"
+        android:background="@drawable/t_icon"/>
+
+    <ImageButton
+        android:layout_width="11dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:layout_marginRight="33dp"
+        android:id="@+id/tool_widget_text"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/t_text"/>
+
+    <ImageButton
+        android:layout_width="19dp"
+        android:layout_height="24dp"
+        android:layout_weight="1"
+        android:layout_marginRight="33dp"
+        android:id="@+id/tool_widget_image"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/t_image"/>
+
+    <ImageButton
+        android:layout_width="9dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:layout_marginRight="33dp"
+        android:id="@+id/tool_widget_record"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/t_record"/>
+
+    <ImageButton
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:layout_marginRight="33dp"
+        android:id="@+id/tool_widget_video"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/t_video"/>
+
+    <ImageButton
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:layout_marginRight="15dp"
+        android:id="@+id/tool_widget_file"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/t_file"/>
+
+</LinearLayout>

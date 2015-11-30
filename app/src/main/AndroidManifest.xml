@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sandstorm.com.thenotebook" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR"></uses-permission>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"></uses-permission>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+
+    <supports-screens
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service android:name=".services.DataService"></service>
+        
+        <service android:name=".services.SyncService"></service>
+        
+        <service android:name=".services.AlarmService"></service>
+
+        <service android:name=".services.InfoService"></service>
+
+        <activity android:name=".ui.newNote.NewEditNote" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.setting.Setting" android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".ui.signinSignup.Signup"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        ></activity>
+
+        <activity android:name=".ui.signinSignup.Signin" android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".ui.alarm.SetAlarm" android:screenOrientation="portrait"></activity>
+
+        <receiver android:name=".services.AlarmReceiver"></receiver>
+        
+        <activity android:name=".ui.alarm.AlarmDialog" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:screenOrientation="portrait"></activity>
+
+        <receiver android:name=".widget.ToolWidget"
+            android:label="@string/tool_bar">
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"></action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/tool_bar_info"/>
+
+        </receiver>
+
+        <activity android:name=".ui.AccountManagment.UpgradeRequest" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+
+        <activity android:name=".ui.setting.About" android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".ui.AccountManagment.ManageAccount" android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".ui.AccountManagment.Upgrade" android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".ui.signinSignup.Lock" android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".ui.setting.TermsOfService" android:screenOrientation="portrait"></activity>
+
+        <receiver android:name=".services.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".ui.AccountManagment.ForgetPassword" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Translucent"></activity>
+
+        <activity
+            android:name="ru.bartwell.exfilepicker.ExFilePickerActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/ExFilePickerThemeDark" />
+
+        <receiver android:name=".services.SyncReceiver"></receiver>
+
+        <activity android:name=".ui.setting.License"></activity>
+
+    </application>
+
+</manifest>

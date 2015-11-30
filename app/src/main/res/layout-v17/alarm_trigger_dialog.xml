@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/drawer">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:maxLength="15"
+        android:text="New Text"
+        android:id="@+id/alarm_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+        android:layout_below="@+id/alarm_title"
+        android:layout_alignLeft="@+id/alarm_title"
+        android:layout_alignStart="@+id/alarm_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alarm_preview"
+        android:layout_marginTop="8dp"
+        android:textSize="15dp"
+        android:text="preview"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:minLines="10"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignLeft="@+id/alarm_title"
+        android:layout_alignStart="@+id/alarm_title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/alarm_preview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/open_note"
+        android:background="@color/drawer"
+        android:id="@+id/alarm_open"
+        android:layout_weight="0.5"
+        android:layout_alignRight="@+id/digitalClock"
+        android:layout_alignEnd="@+id/digitalClock"
+        android:layout_below="@+id/editText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/dismiss"
+        android:background="@color/drawer"
+        android:id="@+id/alarm_dismiss"
+        android:layout_weight="0.5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_toStartOf="@+id/button" />
+    </LinearLayout>
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/alarm_title"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4" />
+</RelativeLayout>

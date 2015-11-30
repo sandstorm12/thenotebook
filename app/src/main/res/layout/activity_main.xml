@@ -1,0 +1,70 @@
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/main_drawerLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/set_alarm_back"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/main_frameLayout">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar">
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.SearchView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar"
+        android:visibility="gone"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/main_search_view">
+
+    </android.support.v7.widget.SearchView>
+
+    <fragment
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/noteFragment"
+        android:layout_weight="0.9"
+        android:name="sandstorm.com.thenotebook.ui.noteList.NotebookFragment">
+     </fragment>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="265dp"
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_gravity="start"
+        android:background="@color/drawer">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_listView"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:layout_above="@+id/drawer_sync"
+        ></ListView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/drawer_sync"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:background="@color/darker_drawer"
+        android:text="@string/sync"
+        />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

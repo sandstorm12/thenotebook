@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar">#4CB067</color>
+    <color name="drawer">#ff53f2a2</color>
+    <color name="darker_drawer">#ff4ec97e</color>
+    <color name="note">#ffffff</color>
+    <color name="main_back">#fff9ffb5</color>
+    <color name="white">#ffffff</color>
+    <color name="dialog_title">#ff0099cc</color>
+    <color name="set_alarm_back">#ffffffff</color>
+    <color name="set_alarm_toolbar">#ffb2d0af</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#ffffff</color>
+    <color name="seller">#ff525252</color>
+    <color name="seller_name">#fff0f0f0</color>
+    <color name="seller_button">#ffffda40</color>
+    <color name="tool_bar_widget">#a7000000</color>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:persianDatePicker="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:nestedScrollingEnabled="true"
+    android:background="@color/set_alarm_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/set_alarm_toolbar"
+        android:background="@color/toolbar"
+        ></android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:text="@string/pick_time"/>
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:id="@+id/set_alarm_time_picker"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"></TimePicker>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:text="@string/pick_data"/>
+
+    <sandstorm.com.thenotebook.ui.timePicker.PersianDatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/set_alarm_date_picker"
+        android:layout_gravity="center_horizontal"
+        persianDatePicker:displayMonthNames="true"
+        persianDatePicker:displayDescription="false"></sandstorm.com.thenotebook.ui.timePicker.PersianDatePicker>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:text="@string/set_repeat"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/set_alarm_spinner"
+        android:layout_height="wrap_content"></Spinner>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

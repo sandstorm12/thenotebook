@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "sandstorm.com.thenotebook"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 9
+        versionName "0.6.1 beta"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:design:22.2.0'
+    compile files('libs/gson-2.3.1.jar')
+    compile files('C:/Users/HP/AndroidStudioProjects/TheNotebook/gson-2.3.1/gson-2.3.1.jar')
+    compile files('libs/jackson-all-1.9.0.jar')
+    compile 'ru.bartwell:exfilepicker:1.8'
+}

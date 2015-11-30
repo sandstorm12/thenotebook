@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/save" app:showAsAction="always" android:id="@+id/menu_save"></item>
+    <item android:title="@string/image" app:showAsAction="never" android:id="@+id/menu_image"></item>
+    <item android:title="@string/sound" app:showAsAction="never" android:id="@+id/menu_sound"></item>
+    <item android:title="@string/video" app:showAsAction="never" android:id="@+id/menu_video"></item>
+    <item android:title="@string/file" app:showAsAction="never" android:id="@+id/menu_file"></item>
+</menu>

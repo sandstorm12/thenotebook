@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:title="@string/search" android:id="@+id/menu_search" android:actionViewClass="android.support.v7.widget.SearchView" app:showAsAction="always" android:icon="@drawable/search"></item>
+    <item android:icon="@drawable/new_notebook" android:title="@string/new_notebook" android:id="@+id/menu_add_notebook" app:showAsAction="always" />
+</menu>

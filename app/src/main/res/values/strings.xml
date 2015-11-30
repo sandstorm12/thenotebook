@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name" translatable="false">The Notebook</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="sync">sync</string>
+    <string name="notes">notes</string>
+    <string name="notebooks">notebooks</string>
+    <string name="all_notes">all notes</string>
+    <string name="reminder">reminders</string>
+    <string name="trash">trash</string>
+    <string name="base" translatable="false">base</string>
+    <string name="setting">settings</string>
+    <string name="notebook_name">notebook name </string>
+    <string name="add">add</string>
+    <string name="new_notebook">new notebook</string>
+    <string name="save">save</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="agree_to_terms">i agree to terms of service</string>
+    <string name="terms_of_service">terms of service</string>
+    <string name="signup">SignUp</string>
+    <string name="have_account_already">already have account</string>
+    <string name="welcome_back">welcome back</string>
+    <string name="signin">SignIn</string>
+    <string name="auto_sync">auto sync</string>
+    <string name="sync_interval">sync interval</string>
+    <string name="account">account</string>
+    <string name="manage_account">manage account</string>
+    <string name="backup" translatable="false">backup</string>
+    <string name="offline_backup" translatable="false">offline backup</string>
+    <string name="online_backup" translatable="false">online backup</string>
+    <string name="about">about</string>
+    <string name="license">license</string>
+    <string name="about_developer">about developer</string>
+    <string name="review">rate</string>
+    <string name="feel_the_difference" translatable="false">Feel The Difference</string>
+    <string name="not_connceted">your are not connected to any network</string>
+    <string name="fill_all_fields">fill all fields</string>
+    <string name="database_not_responding">sorry, sever not responding now, try again later</string>
+    <string name="account_not_exists">your account is not exist or your email or password is wrong</string>
+    <string name="wait">wait...</string>
+    <string name="account_used_before">your email is used before</string>
+    <string name="download_header">downloading header</string>
+    <string name="sync_success">notes successfully synced</string>
+    <string name="sync_failed">sync failed, please try again later</string>
+    <string name="get_image">get image :</string>
+    <string name="select_method" translatable="false">select method </string>
+    <string name="take_new_one">take new one</string>
+    <string name="select_existing">select existing</string>
+    <string name="image">image</string>
+    <string name="video">video</string>
+    <string name="file">file</string>
+    <string name="audio">audio</string>
+    <string name="max_size_reached">max size reached</string>
+    <string name="max_note_size_reached">total max note size is 8 mega_bytes\nremaining kilo_bytes :</string>
+    <string name="ok">ok</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="cancel">cancel</string>
+    <string name="pick_data">pick date</string>
+    <string name="pick_time">pick time</string>
+    <string name="set_repeat">set repeat</string>
+    <string name="daily">daily</string>
+    <string name="weekly">weekly</string>
+    <string name="monthly">monthly</string>
+    <string name="no_repeat">no repeat</string>
+    <string name="delete">delete</string>
+    <string name="dismiss">dismiss</string>
+    <string name="open_note">open note</string>
+    <string name="note_list">note list</string>
+    <string name="tool_bar" translatable="false">The Notebook</string>
+    <string name="add_shortcut_to_home_screen">add shortcut to home screen</string>
+    <string name="shortcut_created">shortcut created</string>
+    <string name="restore">restore</string>
+    <string name="wanna_restore">do you wanna restore the note?</string>
+    <string name="delete_permanently">delete permanently</string>
+    <string name="no_suitable_app">there is no suitable app to handle your request</string>
+    <string name="cancel_alarm">cancel alarm</string>
+    <string name="wanna_cancel_alarm">do want to cancel current alarm?</string>
+    <string name="cannot_find_file">sorry, cannot find selected file</string>
+    <string name="note">note</string>
+    <string name="alarm_song">alarm tone</string>
+    <string name="sort" translatable="false">sort</string>
+    <string name="select_from_phone">select from phone</string>
+    <string name="please_select_one">please select one</string>
+    <string name="by_creation_ascending" translatable="false">by creation - ascending</string>
+    <string name="by_creation_deascending" translatable="false">by creation - descending</string>
+    <string name="by_edit_ascending" translatable="false">by last edit time - ascending</string>
+    <string name="by_edit_deascending" translatable="false">by last edit item - descending</string>
+    <string name="ad">get premium features with great price today\n\n 1. never lose your notes again with online backup\n 2. with sync services access your notes anywhere, anytime, on all your android devices\n 3. get fresh notes on every android device automatically with auto sync\n 4. take pictures, capture videos, record sounds, get files and add them all to your note up to 8mb and access them anywhere easily</string>
+    <string name="see_offers">see offers</string>
+    <string name="loading">loading...</string>
+    <string name="saving">saving...</string>
+    <string name="developer" translatable="false">developer : hamid mohammadi</string>
+    <string name="elec" translatable="false">electronic engineer at k.n.t.u.</string>
+    <string name="my_email" translatable="false">admin@sandstormweb.com</string>
+    <string name="data" translatable="false">2015 - summer</string>
+    <string name="info">account info</string>
+    <string name="type">type : free</string>
+    <string name="type_premium">type : premium</string>
+    <string name="premium">premium</string>
+    <string name="actions">actions</string>
+    <string name="change_password">change password</string>
+    <string name="change_email" translatable="false">change email</string>
+    <string name="delete_account">delete account</string>
+    <string name="caution">caution</string>
+    <string name="wanna_delete">do really want to delete this note?</string>
+    <string name="wanna_delete_permanently">do you really want to delete this note permanently?</string>
+    <string name="search">search</string>
+    <string name="public_key" translatable="false">MIHNMA0GCSqGSIb3DQEBAQUAA4G7ADCBtwKBrwCa/xPS1iiIV7hdJW3nWSm7FHETX+cMQ+ASPRvPElo4Nt2BtxVNyRWizeNUWPhYQcyv16tzaO4zvfDJuyUTobWiTeEE4rrYgnOj3jhuhdX4xOULdkoQWxYh0jVgBSs4VGYMrW7+Ycn2g0jqvyrXZlZ6mzXj8/nuILEVoE4u0fmgfi2MyHGLaBfVkarLJrnLkyGcH9sNe/z/RsotC5xd/FnL+AnIOvXvmQjYd1I8rhsCAwEAAQ==</string>
+    <string name="offers">offers</string>
+    <string name="monthly449" translatable="false">Monthly\t499T</string>
+    <string name="yearly">yearly</string>
+    <string name="special_offers" translatable="false">choose\noffer</string>
+    <string name="cannot_connect_to_purchase_server">cannot connect to purchase server</string>
+    <string name="cannot_get_your_account_information_from_bazaar">cannot get your account information from bazaar</string>
+    <string name="you_are_premium_already">you are premium already</string>
+    <string name="purchase_falied">purchase failed</string>
+    <string name="notice">notice</string>
+    <string name="success_message">your premium period is started now\nif you have any problem with application and it services connect with me at setting -> connect with me</string>
+    <string name="bazaar_not_installed">please install cafe bazaar android market on your android device in order to get premium features</string>
+    <string name="account_information_updated">account information updated</string>
+    <string name="update_account_information">update account information</string>
+    <string name="lock">lock</string>
+    <string name="forget_password">forget password</string>
+    <string name="please_wait">please wait</string>
+    <string name="logout">logout</string>
+    <string name="action_successfully_completed">action successfully completed</string>
+    <string name="new_password">new password</string>
+    <string name="old_password">old password</string>
+    <string name="change">change</string>
+    <string name="Yearly_off">Yearly (20% Off)</string>
+    <string name="you_really_wanna_logout">do you really want to logout?</string>
+    <string name="all_your_data_will_">all your data will be erased from your device!\ndo you really want to continue?</string>
+    <string name="you_really_wanna_delete_account">do you really want to delete your account?</string>
+    <string name="all_data_erased">all your data in this device and server will be erased!\ndo you want to continue?</string>
+    <string name="app">app</string>
+    <string name="your_password_is_wrong">your password is wrong</string>
+    <string name="go">go</string>
+    <string name="password_protection">password protection</string>
+    <string name="bazaar_is_not_installed">bazaar is not installed on your device</string>
+    <string name="language">language</string>
+    <string name="title">title</string>
+    <string name="sound">sound</string>
+    <string name="uploading">uploading :</string>
+    <string name="downloading">downloading new note :</string>
+    <string name="confirm">confirm</string>
+    <string name="your_email_wrong">your email is wrong</string>
+    <string name="your_password_wrong">your password is wrong</string>
+    <string name="password_sent">your password has been sent to your email address\nplease check your spam folder too</string>
+    <string name="your_account_is_not_exist">your account is not exists</string>
+    <string name="close_withot_save">do you want to close without saving?</string>
+    <string name="restart_to_complete">all changes will take effect after you restart the app</string>
+    <string name="developer_message">developer message</string>
+    <string name="dont_show">don\'t show for a week</string>
+    <string name="daily_limition">you have reached daily sync limit</string>
+    <string name="save_to_storage">save to internal storage</string>
+    <string name="file_saved">file has been saved to intrenal_storage/The Notebook</string>
+    <string name="every_hour">every 1 hour</string>
+    <string name="every_3">every 3 hours</string>
+    <string name="every_6">every 6 hours</string>
+    <string name="every12">every 12 hour</string>
+    <string name="every24">every 24 hours</string>
+    <string name="rename">rename</string>
+    <string name="move_to_notebook">move to notebook</string>
+    <string name="purchase_success">purchase successful</string>
+    <string name="connot_get_sku">connot get purchase info from server</string>
+</resources>

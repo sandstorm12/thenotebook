@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_back">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="185dp"
+        android:id="@+id/imageView5"
+        android:background="@drawable/premium"
+        android:layout_gravity="center_horizontal" />
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:text="@string/ad"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/see_offers"
+        android:id="@+id/upgrade_request_go"
+        android:background="@color/toolbar"
+        android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
